@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 { @apply text-primary; }
+h2 { @apply text-secondary; }
+h3 { @apply text-tertiary; }
+h4 { @apply text-tertiary; }
+h5 { @apply text-tertiary; }
+h6 { @apply text-tertiary; }
+body, span{ @apply text-tertiary; }
+a { @apply text-tertiary no-underline inline-block; }
